@@ -1,11 +1,1 @@
-
-  # MovieMax Website
-
-  This is a code bundle for MovieMax Website. The original project is available at https://www.figma.com/design/rmq73bFKciDx0NeN2FIwQV/MovieMax-Website.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+MovieMax is built with React + TypeScript featuring a dark theme with red accents UI/UX. The application integrates with the OMDb API  to fetch real movie data for trending, action, and comedy categories. Core functionality includes live search, favorites system with heart hover effects, and full-page movie details with back navigation. The app uses client-side routing between Home, Search, Favorites, and Movie Details pages without external routing libraries. Movie cards feature hover effects with play/info buttons and heart favorites that persist in localStorage. The responsive design works on both desktop and mobile with a collapsible navigation menu. High-quality image rendering is implemented for movie posters and backdrops with optimized loading states. 
